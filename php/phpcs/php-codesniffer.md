@@ -2,10 +2,10 @@
 
 Varre o fonte validando com o padrão PSR2
 path = pasta do projeto que deseja fazer o scan
-
+--extensions = opcionamente para verificar apenas certas extensoes de arquivos
 ```
 
-$ phpcs path --standard=PSR2
+$ phpcs path --standard=PSR2 </--extensions=<extensoes>>
 
 ```
 
@@ -16,6 +16,6 @@ php phpcs.phar -h
 
 ```
 
-$ php phpcs.phar path --standard=PSR2
+$ php phpcs.phar path --standard=PSR2 </--extensions=<extensoes>>
 
 ```
